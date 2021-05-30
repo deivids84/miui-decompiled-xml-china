@@ -1,0 +1,3 @@
+files:
+  - source: /star_eea_global/**/values/*.xml
+    translation: /star_global/**/values-%two_letters_code%/%original_file_name%
