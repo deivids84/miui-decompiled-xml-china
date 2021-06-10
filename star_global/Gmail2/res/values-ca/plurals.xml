@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_people_confirmation_model_body_internal_only_addendum">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+</resources>
