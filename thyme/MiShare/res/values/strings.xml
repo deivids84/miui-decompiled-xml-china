@@ -432,6 +432,8 @@ Before using Mi Share, you must grant the following permissions, as well as allo
     <string name="retry_task">Send again</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG</string>
+    <string name="samsung">Samsung</string>
+    <string name="samsung_phone">Samsung phone</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>

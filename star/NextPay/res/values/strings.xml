@@ -28,8 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accessibility_add_new_door_card">Add a new door card</string>
+    <string name="accessibility_add_new_mipay_card">Add card</string>
     <string name="accessibility_content_desc_bank_card">%1$s Mi Pay Card,Tail number %2$s</string>
     <string name="accessibility_content_desc_payable_card">%1$s，Balance RMB %2$.2f</string>
+    <string name="accessibility_mipay_card_discount">Special offers</string>
     <string name="account_transit_cards_common_problem">FAQ</string>
     <string name="account_transit_cards_more_phone_models">Transit cards on other devices</string>
     <string name="account_transit_cards_recycler_view_category">My transit card</string>
@@ -228,6 +230,7 @@ Contact your bank for details: "<a href="tel:">%1$s</a></string>
     <string name="bind_bank_card_cvn2_hint">End three digits on the backside</string>
     <string name="bind_bank_card_cvn2_title">CVN2</string>
     <string name="bind_bank_card_faq_description">FAQ</string>
+    <string name="bind_bank_card_id_type">ID Type</string>
     <string name="bind_bank_card_info_hint">"This information isn't collected. It's used only for bank verification."</string>
     <string name="bind_bank_card_intro_message">Select card -> Verify fingerprint -> Bring your phone next to the wireless reader</string>
     <string name="bind_bank_card_intro_note">*You must enter PIN for some transactions</string>
@@ -261,6 +264,8 @@ Contact your bank for details: "<a href="tel:">%1$s</a></string>
     <string name="bind_bank_card_valid_hint">Month/Year</string>
     <string name="bind_bank_card_valid_title">Validity</string>
     <string name="bmac_company_name">BEIJING MUNICIPAL ADMINISTRATION &amp; COMMUNICATION CARD CO., LTD</string>
+    <string name="bubble_seek_bar_add_content_description">Increase the use radius</string>
+    <string name="bubble_seek_bar_sub_content_description">Reduce the use radius</string>
     <string name="button_done">Done</string>
     <string name="cancel">Cancel</string>
     <string name="captcha">captcha</string>
@@ -743,6 +748,7 @@ Bring the card close to your phone's NFC reader to record info."</string>
     <string name="inapp_order_amount">%1$.2fCNY</string>
     <string name="inapp_pay_amount">%1$.2f</string>
     <string name="inapp_pay_amount_unit">CNY</string>
+    <string name="inapp_pay_cancelled_by_use">Cancel payment</string>
     <string name="inapp_pay_card_limit_alert">"This card type isn't supported"</string>
     <string name="inapp_pay_card_limit_unavailable">Not supported</string>
     <string name="inapp_pay_card_no_support_format">Payment of %1$s is not supported for thistransaction</string>
@@ -995,7 +1001,8 @@ Just bring your phone next to a reader to pay."</string>
     <string name="phone_number_validate_sms_hint_sequence_3_details">"Contact your bank if the phone number associated with your bank account is out of service.
 "</string>
     <string name="phone_number_validate_sms_hint_sequence_4">4.</string>
-    <string name="phone_number_validate_sms_hint_sequence_4_details">Contact our customer service to get more help: <a href="tel:">4001003399</a></string>
+    <string name="phone_number_validate_sms_hint_sequence_4_details">Contact our customer service to get more help:</string>
+    <string name="phone_number_validate_sms_hint_sequence_4_details_customer_service_telephone">4001003399</string>
     <string name="phone_number_validate_sms_hint_summary">The verificatrion code is sent to the phone number associated with your bank account.</string>
     <string name="phone_number_validate_sms_hint_title">"Didn't receive verification code"</string>
     <string name="phone_number_validate_title">Verify phone number</string>
@@ -1080,6 +1087,8 @@ Just bring your phone next to a reader to pay."</string>
     <string name="sunday_shortest">Sun</string>
     <string name="suzhou_company_name">Suzhou Citizen Card Co., Ltd</string>
     <string name="swipe_card_city">Swipe card city</string>
+    <string name="swiping_card_map_location_icon_content_description">My location</string>
+    <string name="swiping_card_settings_right_icon_content_description">Setting</string>
     <string name="swiping_issue_card">issue card</string>
     <string name="swiping_no_card_door_card">The mobile phone is the door card, the key, you can open the door with the touch of it</string>
     <string name="swiping_no_card_mi_pay">The mobile phone is the bank card, you can pay by swiping the mobile phone</string>

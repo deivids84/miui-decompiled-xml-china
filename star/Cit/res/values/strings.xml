@@ -134,7 +134,9 @@ Hold the phone as if you are making a call, speak to main microphone, you should
     <string name="cit_camera_deleted">Photo deleted</string>
     <string name="cit_camera_deleted_failed">Photo deleted failed</string>
     <string name="cit_camera_flash_adjust">Adjust the flash</string>
+    <string name="cit_camera_otp_download_title">Camera OTP download test</string>
     <string name="cit_camera_rearsub">Rear sub camera test in progress, please wait....</string>
+    <string name="cit_camerasfr_test">Parsing picture, please wait....</string>
     <string name="cit_capture_fail">Failed to take picture</string>
     <string name="cit_charge_usb_dcp">Charging：USB_DCP</string>
     <string name="cit_charge_usb_hvdcp">Charging：USB_HVDCP</string>
@@ -236,7 +238,7 @@ Before test you have to insert the headset"</string>
     <string name="cit_lcdlight_brightness_min">MIN</string>
     <string name="cit_led_selected">Current selected：</string>
     <string name="cit_leds_check_title">Notification light (LED)</string>
-    <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor</string>
+    <string name="cit_light_sensor_check_summary">DAC value should appear below,please test for light sensor(The machine that supports the rear DAC needs to test the rear DAC sensor at the same time, so that the value meets the range of 200 luxes.)</string>
     <string name="cit_light_sensor_check_title">Light sensor</string>
     <string name="cit_macro_camera_check_title">Macro camera</string>
     <string name="cit_magnetic_info_hint">Please rotate the device like 8 shape</string>
@@ -271,7 +273,7 @@ When calibrating, make sure there's nothing between the sensor and your hand (e.
     <string name="cit_rear_dual_second_camera_check_title">Bokeh2 camera</string>
     <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
     <string name="cit_recovery_signature_passed">recovery signature PASSED</string>
-    <string name="cit_reverse_wireless_charge_check_tips">Please put the phone and the device to be charged as required and start testing</string>
+    <string name="cit_reverse_wireless_charge_check_tips">Please put the device to be charged as required and start testing</string>
     <string name="cit_sar_sensor_collect_cali_description">Sar Sensor Calibrate and Data Collect</string>
     <string name="cit_second_screen_accelermeter_sensor_cali_title">Second Screen Acceleration sensor calibration test</string>
     <string name="cit_second_screen_gyroscope_sensor_cali_title">Second Screen Gyroscope sensor calibration test</string>
@@ -554,6 +556,7 @@ The second line shows the name and version number of Default MBN and Carrier MBN
     <string name="cit_tool_wlan_tx_ax_gI">Guard Interval:</string>
     <string name="cit_tool_wlan_tx_bg">Tx: a/b/g</string>
     <string name="cit_tool_wlan_tx_bg_chan">channel:</string>
+    <string name="cit_tool_wlan_tx_bg_ducl">dutycl:</string>
     <string name="cit_tool_wlan_tx_bg_txpr">txpower:</string>
     <string name="cit_tool_wlan_tx_bg_txrt">datarate:</string>
     <string name="cit_tool_wlan_tx_n">Tx: n</string>
@@ -585,6 +588,7 @@ test fail!"</string>
     <string name="cit_usb_charger_out">Charger disconnected</string>
     <string name="cit_version_check_summary">Below is OS version info. Confirm that the info highlighted in green is correct.</string>
     <string name="cit_version_check_title">Check version info</string>
+    <string name="cit_vga_camera_cameralist_fail">Error: cameralist not match</string>
     <string name="cit_vibrator_check">Vibrator Test</string>
     <string name="cit_vibrator_check_summary">"Long or short vibrator occur randomly in the test
 Please select the correct button according to different vibration conditions"</string>

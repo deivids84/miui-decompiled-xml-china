@@ -3151,7 +3151,8 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="freeform_guide_notification_drop_down_summary">Press and hold, and then pull down the action bar of a notification</string>
     <string name="freeform_guide_notification_drop_down_title">Opening floating windows</string>
     <string name="freeform_guide_settings">Floating windows</string>
-    <string name="freeform_guide_slide_to_small_freeform_summary">Press and hold the bottom of the window, and drag it to the upper right corner</string>
+    <string name="freeform_guide_slide_to_small_freeform_summary">"Press and hold the bottom of the window, and drag it to the upper right corner.
+This feature works only when system navigation is set to gestures."</string>
     <string name="freeform_guide_slide_to_small_freeform_title">Minimize an app</string>
     <string name="freeform_guide_slide_up_to_close_summary">Swipe up from the action bar of a floating window</string>
     <string name="freeform_guide_slide_up_to_close_title">Closing floating windows</string>
@@ -4529,6 +4530,7 @@ You can't reverse this action."</string>
     <string name="miheadset_plus">Volume up</string>
     <string name="miheadset_rename">Rename</string>
     <string name="miheadset_rename_device">Rename</string>
+    <string name="miheadset_single_ear_indicate">Wear both earphones to use noise cancellation</string>
     <string name="miheadset_soft">Soft</string>
     <string name="miheadset_transparent">Transparency</string>
     <string name="miheadset_transparentMode">Transparency</string>
@@ -7526,6 +7528,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="three_gesture_horizontal">Swipe horizontally with %d fingers</string>
     <string name="three_gesture_long_press">Press and hold with %d fingers</string>
     <string name="three_gesture_pc_mode">Turn on PC mode</string>
+    <string name="time_floating_window">Floating clock</string>
+    <string name="time_floating_window_summary">Show the clock in the floating window above other apps</string>
     <string name="time_format_category_title">Time format</string>
     <string name="time_picker_title">Time</string>
     <string name="time_spent_in_app_pref_title">Screen time</string>

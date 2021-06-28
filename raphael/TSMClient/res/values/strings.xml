@@ -28,8 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accessibility_add_new_door_card">Add a new door card</string>
+    <string name="accessibility_add_new_mipay_card">Add card</string>
     <string name="accessibility_content_desc_bank_card">%1$s Mi Pay Card,Tail number %2$s</string>
     <string name="accessibility_content_desc_payable_card">%1$s，Balance RMB %2$.2f</string>
+    <string name="accessibility_mipay_card_discount">Special offers</string>
     <string name="account_transit_cards_common_problem">FAQ</string>
     <string name="account_transit_cards_more_phone_models">Transit cards on other devices</string>
     <string name="account_transit_cards_recycler_view_category">My transit card</string>
@@ -124,6 +126,24 @@ You will get a refund via the original payment method."</string>
     <string name="app_name">NextPay</string>
     <string name="apply_times_exceed_limit">"You've applied too many times already."</string>
     <string name="arrow_text">></string>
+    <string name="assert_instruction_mode_one_button_continue">Continue</string>
+    <string name="assert_instruction_mode_one_button_query">Query</string>
+    <string name="assert_instruction_mode_one_dialog_title">Operations</string>
+    <string name="assert_instruction_mode_one_option_all">Stop after all</string>
+    <string name="assert_instruction_mode_one_option_number">Stop after n</string>
+    <string name="assert_instruction_mode_one_option_number_input_error_tip">input logical number %1$d - %2$d</string>
+    <string name="assert_instruction_mode_one_option_number_input_text">Number:</string>
+    <string name="assert_instruction_mode_one_option_one">Stop after next</string>
+    <string name="assert_instruction_mode_one_option_stop">Stop</string>
+    <string name="assert_instruction_mode_one_title">Next:</string>
+    <string name="assert_instruction_mode_three_confirm">Confirm</string>
+    <string name="assert_instruction_mode_three_dialog_list_title">Query APDU</string>
+    <string name="assert_instruction_mode_three_list_tips">Note: Black represents executed, gray represents not executed.</string>
+    <string name="assert_instruction_mode_two_dialog_title">Current set is Completed</string>
+    <string name="assert_instruction_mode_two_option_no">No</string>
+    <string name="assert_instruction_mode_two_option_pull_title">Pull</string>
+    <string name="assert_instruction_mode_two_option_push_title">Push</string>
+    <string name="assert_instruction_mode_two_option_yes">Yes</string>
     <string name="auto_recharge">Top up automatically</string>
     <string name="auto_recharge_balance_setting_btn_confirm">Save settings</string>
     <string name="auto_recharge_bank">%1$s | %2$s</string>
@@ -135,7 +155,7 @@ You will get a refund via the original payment method."</string>
     <string name="auto_recharge_service_closed">This item will no longer be topped up automatically</string>
     <string name="auto_recharge_setting_alert_confirm">OK</string>
     <string name="auto_recharge_setting_balance_dialog_desc">"You'll be reminded when your balance goes below the set limit."</string>
-    <string name="auto_recharge_setting_balance_dialog_tips">Enter balance limit</string>
+    <string name="auto_recharge_setting_balance_dialog_tips">Enter balance limit,%1$d~%2$d</string>
     <string name="auto_recharge_setting_balance_left_text">Balance</string>
     <string name="auto_recharge_setting_balance_right_text">Less than %1$.2f CNY</string>
     <string name="auto_recharge_setting_bank_left_text">Bank card</string>
@@ -239,6 +259,7 @@ Contact your bank for details: "<a href="tel:">%1$s</a></string>
     <string name="bind_bank_card_cvn2_hint">End three digits on the backside</string>
     <string name="bind_bank_card_cvn2_title">CVN2</string>
     <string name="bind_bank_card_faq_description">FAQ</string>
+    <string name="bind_bank_card_id_type">ID Type</string>
     <string name="bind_bank_card_info_hint">"This information isn't collected. It's used only for bank verification."</string>
     <string name="bind_bank_card_intro_message">Select card -> Verify fingerprint -> Bring your phone next to the wireless reader</string>
     <string name="bind_bank_card_intro_note">*You must enter PIN for some transactions</string>
@@ -274,6 +295,8 @@ Contact your bank for details: "<a href="tel:">%1$s</a></string>
     <string name="bind_bank_mipay_add">Add Mi Pay</string>
     <string name="bind_bank_mipay_add_bank_card">add Mi Pay bank card</string>
     <string name="bmac_company_name">BEIJING MUNICIPAL ADMINISTRATION &amp; COMMUNICATION CARD CO., LTD</string>
+    <string name="bubble_seek_bar_add_content_description">Increase the use radius</string>
+    <string name="bubble_seek_bar_sub_content_description">Reduce the use radius</string>
     <string name="button_done">Done</string>
     <string name="cancel">Cancel</string>
     <string name="captcha">captcha</string>
@@ -817,8 +840,10 @@ Bring the card close to your phone's NFC reader to record info."</string>
     <string name="inapp_input_trans_password">"Enter your bank card's PIN"</string>
     <string name="inapp_merchant_name">商戶名稱</string>
     <string name="inapp_order_amount">%1$.2fCNY</string>
+    <string name="inapp_order_fingerprint">Please enter fingerprint payment</string>
     <string name="inapp_pay_amount">%1$.2f</string>
     <string name="inapp_pay_amount_unit">CNY</string>
+    <string name="inapp_pay_cancelled_by_use">Cancel payment</string>
     <string name="inapp_pay_card_limit_alert">"This card type isn't supported"</string>
     <string name="inapp_pay_card_limit_unavailable">Not supported</string>
     <string name="inapp_pay_card_no_support_format">Payment of %1$s is not supported for thistransaction</string>
@@ -892,6 +917,8 @@ Just bring your phone next to a reader to pay."</string>
     <string name="mi_account_password_verify_title">Verify your Mi Account</string>
     <string name="mi_official_customer_service">4001003399</string>
     <string name="midnight">Night</string>
+    <string name="mifare_entrance_desc">Can support the following scenarios at the same time</string>
+    <string name="mifare_entrance_door_card">Door card</string>
     <string name="mipay_check_sms_phone_prompt">The code received by &lt;b>&lt;font color=#131c31>%1$s&lt;/font>&lt;/b></string>
     <string name="mipay_introduction">Pay for offline purchases and public transport rides with your phone</string>
     <string name="mipay_key_item_create_date">Date added:%1$s</string>
@@ -927,6 +954,11 @@ Just bring your phone next to a reader to pay."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
+    <string name="miuix_search_action_mode_cancel">Cancel</string>
+    <string name="miuix_search_history_clear">Clear search history</string>
+    <string name="miuix_search_history_default_title">Search history</string>
+    <string name="miuix_search_recommendation_default_title">You might be interested in these</string>
+    <string name="miuix_search_recommendation_item_del_des">Delete</string>
     <string name="monday">Monday</string>
     <string name="monday_short">Mon</string>
     <string name="monday_shortest">Mon</string>
@@ -1040,11 +1072,10 @@ Just bring your phone next to a reader to pay."</string>
     <string name="nextpay_door_card_community_search_hint_text">Enter community name</string>
     <string name="nextpay_door_card_community_search_ime_action_label">Search</string>
     <string name="nextpay_door_card_community_search_not_find_tips_keyword">\"%1$s\"</string>
-    <string name="nextpay_door_card_community_search_not_find_tips_title">"Couldn't find results for "</string>
+    <string name="nextpay_door_card_community_search_not_find_tips_title">"Couldn't find results"</string>
     <string name="nextpay_door_card_community_search_title">Search for community</string>
     <string name="nextpay_door_card_community_system_service_failed">A system error occurred. Try again.</string>
     <string name="nextpay_door_card_community_visit_h5_success">Permission request submitted</string>
-    <string name="nextpay_door_card_contact_service">Contact customer ervice</string>
     <string name="nextpay_door_card_custom_item_desc">Send a blank card online and use it after writing datar</string>
     <string name="nextpay_door_card_custom_item_title">Blank card</string>
     <string name="nextpay_door_card_edit_card_name">Personalization</string>
@@ -1081,6 +1112,7 @@ Just bring your phone next to a reader to pay."</string>
     <string name="nextpay_door_card_verify_sms_verity_fail_tips_positive_text">Got it</string>
     <string name="nextpay_door_card_verify_sms_verity_fail_tips_title">"Couldn't verify"</string>
     <string name="nextpay_issue_door_card_select_cpu_card_title">Select smart lock</string>
+    <string name="nextpay_mifare_card_rename_hint_title">Guide</string>
     <string name="nextpay_mifare_card_rename_select_art_info_tips">Select theme</string>
     <string name="nextpay_more_setting_notice">Notice</string>
     <string name="nextpay_more_settings_auto_recharge">Top up automatically</string>
@@ -1213,6 +1245,9 @@ Balance: %2$s¥"</string>
 AYou can also double press the Power button to switch between cards."</string>
     <string name="paynext_result_issue_success_footer_op_recharge_text">Go to top up, use immediately</string>
     <string name="paynext_result_issue_success_footer_op_text">How to use your transport card</string>
+    <string name="paynext_result_issue_success_new_setting_quick_card_hint">"The card has been set as a quick card to help you swipe it quickly next to a wireless reader in any status.
+You can also double press the Power button to switch between cards."</string>
+    <string name="paynext_result_issue_success_new_unsetting_quick_card_hint">After the mobile phone is turned on,bring your device<Data>&lt;font color=#0D84FF>next to a wireless reader &lt;/font></Data> to swipe a card in any status;&lt;br>&lt;br>You can also<Data>&lt;font color=#0D84FF>double press the Power button&lt;/font></Data>to switch between cards</string>
     <string name="paynext_result_issue_success_setting_quick_card_hint">"The card has been set as a quick card to help you swipe it quickly next to a wireless reader in any status.
 You can also double press the Power button to switch between cards."</string>
     <string name="paynext_result_issue_success_unsetting_quick_card_hint">"After the mobile phone is turned on, bring your device next to a wireless reader to swipe a card in any status.
@@ -1357,6 +1392,8 @@ You can also double press the Power button to switch between cards."</string>
     <string name="swiping_card_location_map_80_m">80m</string>
     <string name="swiping_card_location_map_bubble_txt">Current card range %s m</string>
     <string name="swiping_card_location_map_subtitle_txt">Avoid bus stops when setting up</string>
+    <string name="swiping_card_map_location_icon_content_description">My location</string>
+    <string name="swiping_card_settings_right_icon_content_description">Setting</string>
     <string name="swiping_intelligent_fence_add">Add location</string>
     <string name="swiping_intelligent_fence_list_full_tips">%1$d max, please delete 1 position before adding</string>
     <string name="swiping_intelligent_fence_list_title">Swipe locations, %1$d max</string>

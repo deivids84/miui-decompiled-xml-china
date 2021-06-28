@@ -614,7 +614,7 @@ Change settings now?"</string>
     <string name="app_list_preference_none">None</string>
     <string name="app_memory_use">Memory use</string>
     <string name="app_mobile">Mobile data</string>
-    <string name="app_name">blur</string>
+    <string name="app_name">MiuiSettingsCommonLib</string>
     <string name="app_name_label">App</string>
     <string name="app_name_na">Data usage</string>
     <string name="app_names_concatenation_template_2">%1$s, %2$s</string>
@@ -1400,6 +1400,7 @@ Selection"</string>
     <string name="bluetooth_unlock_settings_devices_title">Device</string>
     <string name="bluetooth_unlock_settings_toggle_title">Apply to</string>
     <string name="bluetooth_unlock_settings_unlock_device">Unlock device</string>
+    <string name="bluetooth_unlock_settings_unlock_summary">This feature works with selected wearable devices made by Xiaomi</string>
     <string name="bluetooth_unlock_state_disconnected">Not connected</string>
     <string name="bluetooth_unlock_state_key_error">Incorrect password</string>
     <string name="bluetooth_unlock_state_label">"Status: "</string>
@@ -1489,9 +1490,17 @@ You can turn this feature off in the Settings > Bluetooth > Paired devices."</st
     <string name="bt_absVolume_open_dialog_title">Attention</string>
     <string name="bt_absVolume_pre_title">Absolute volume</string>
     <string name="bt_absVolume_summary">"Keep the volume of Bluetooth devices and the phone strictly consistent. You can turn this feature on and off when media isn't playing in the background."</string>
+    <string name="bt_audio_repair_property">Fix audio issues</string>
     <string name="bt_audio_share_property">Sharing</string>
     <string name="bt_audio_share_switch_summary">Share audio with connected Bluetooth devices</string>
     <string name="bt_audio_share_switch_title">Share audio</string>
+    <string name="bt_audiorepair_dialog_open_success">Fixed successfully. Wait until the device reconnects.</string>
+    <string name="bt_audiorepair_dialog_openok">Fix</string>
+    <string name="bt_audiorepair_open_dialog_summary">"MIUI will detect and fix the problems that cause Bluetooth audio stutter. Bluetooth will be restarted during this process. Don't leave this page until you see the results."</string>
+    <string name="bt_audiorepair_open_dialog_title">Fix audio stutter</string>
+    <string name="bt_audiorepair_pre_title">Fix audio stutter</string>
+    <string name="bt_audiorepair_summary">Fix audio stutter on connected Bluetooth devices</string>
+    <string name="bt_audiorepair_working">Fixing audio stutter…</string>
     <string name="bt_dialog_remember_choice">"Don't show again"</string>
     <string name="bt_dialog_settings">Settings</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
@@ -2192,9 +2201,14 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="dark_color_summary_lcd">"Use darker color palette for system backgrounds and compatible apps. Dark mode can help you to relieve eye strain when you're using your device in the dark."</string>
     <string name="dark_color_summary_oled">Use darker color palette for system backgrounds and compatible apps. Dark mode reduces power consumption and helps to relieve eye strain.</string>
     <string name="dark_mode_apps_header">Individual apps</string>
+    <string name="dark_mode_auto_time_summary">Turn Dark mode on and off at scheduled time</string>
+    <string name="dark_mode_auto_time_title">Custom</string>
     <string name="dark_mode_contrast">Adjust contrast automatically</string>
     <string name="dark_mode_contrast_hint">Adjust colors and lower contrast automatically when brightness is reduced</string>
+    <string name="dark_mode_day_night_mode_summary">Switch to Dark mode at sunset and turn it off at sunrise</string>
+    <string name="dark_mode_day_night_mode_title">Sunset to sunrise</string>
     <string name="dark_mode_font_background_title">Adjust text and backgrounds automatically</string>
+    <string name="dark_mode_time_settings">Schedule Dark mode</string>
     <string name="dark_theme_slice_subtitle">Helps extend battery life</string>
     <string name="dark_theme_slice_title">Try Dark theme</string>
     <string name="dark_ui_activation_off_auto">Turn off until sunset</string>
@@ -2404,6 +2418,7 @@ This setting affects all users of this device."</string>
     <string name="default_calendar_app_title">Calendar app</string>
     <string name="default_contacts_app_title">Contacts app</string>
     <string name="default_digital_assistant_title">Default digital assistant app</string>
+    <string name="default_document_title">Documents</string>
     <string name="default_emergency_app">Emergency app</string>
     <string name="default_for_calls">Default for calls</string>
     <string name="default_for_calls_and_sms">Default for calls &amp; SMS</string>
@@ -2714,6 +2729,11 @@ If this keeps happening, you may need to uninstall the app to improve battery pe
     <string name="dock_sounds_enable_summary_on">Play sound when inserting or removing phone from dock</string>
     <string name="dock_sounds_enable_title">Dock insert sound</string>
     <string name="docking_sounds_title">Docking sounds</string>
+    <string name="document_default_status">Select</string>
+    <string name="document_excel_title">Excel</string>
+    <string name="document_pdf_title">PDF</string>
+    <string name="document_powerpoint_title">PowerPoint</string>
+    <string name="document_word_title">Word</string>
     <string name="does_not_exist">App doesn’t exist.</string>
     <string name="domain_url_section_title">Installed apps</string>
     <string name="domain_urls_apps_summary_off">No app opening supported links</string>
@@ -3046,6 +3066,7 @@ For more details, contact your organization's admin."</string>
     <string name="face_intro_error_max">You’ve added the maximum number of faces</string>
     <string name="face_intro_error_unknown">Can’t add more faces</string>
     <string name="face_lock_screen_setup_skip_dialog_text">By protecting your phone with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel.</string>
+    <string name="face_password_unlock">Face data &amp; screen lock</string>
     <string name="face_unlock">Face unlock</string>
     <string name="face_unlock_be_on_the_screen">Hold the device in front of your face</string>
     <string name="face_unlock_by_notification_screen_on_msg">You can unlock the device using face data whenever the screen lights up for incoming notifications. This may drain the battery faster.</string>
@@ -3137,6 +3158,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
     <string name="fingerprint_enroll_button_add">Add another</string>
     <string name="fingerprint_enroll_button_next">Next</string>
+    <string name="fingerprint_face_password_unlock">Fingerprints, face data, and screen lock</string>
     <string name="fingerprint_first_open_screen_password_face_tittle">Face (set Lock screen password first)</string>
     <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password first)</string>
     <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
@@ -3161,6 +3183,7 @@ For more details, contact your organization's admin."</string>
     <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
     <string name="fingerprint_not_recognized">Not recognized</string>
     <string name="fingerprint_others_title">Other</string>
+    <string name="fingerprint_password_unlock">Fingerprints &amp; screen lock</string>
     <string name="fingerprint_payment">Fingerprint payments</string>
     <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -3377,7 +3400,8 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
     <string name="freeform_guide_notification_drop_down_summary">Press and hold, and then pull down the action bar of a notification</string>
     <string name="freeform_guide_notification_drop_down_title">Opening floating windows</string>
     <string name="freeform_guide_settings">Floating windows</string>
-    <string name="freeform_guide_slide_to_small_freeform_summary">Press and hold the bottom of the window, and drag it to the upper right corner</string>
+    <string name="freeform_guide_slide_to_small_freeform_summary">"Press and hold the bottom of the window, and drag it to the upper right corner.
+This feature works only when system navigation is set to gestures."</string>
     <string name="freeform_guide_slide_to_small_freeform_title">Minimize an app</string>
     <string name="freeform_guide_slide_up_to_close_summary">Swipe up from the action bar of a floating window</string>
     <string name="freeform_guide_slide_up_to_close_title">Closing floating windows</string>
@@ -3429,8 +3453,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="gesture_setting_on">On</string>
     <string name="gesture_settings_activity_title">Gesture Settings</string>
     <string name="gesture_settings_title">Gesture shortcuts</string>
-    <string name="gesture_wakeup_summary">You can double tap to turn the screen off when either Default or Classic theme is applied</string>
-    <string name="gesture_wakeup_title">Double tap to wake or turn off screen</string>
+    <string name="gesture_wakeup_summary">You can double tap to turn the screen off only when pre-installed themes are applied</string>
+    <string name="gesture_wakeup_title">Double tap to wake or turn off screen when device is locked</string>
     <string name="getConfiguredNetworks">getConfiguredNetworks</string>
     <string name="getConnectionInfo">getConnectionInfo</string>
     <string name="giga_hertz">GHz</string>
@@ -4130,6 +4154,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="launch_noapp_dialog_replace">Settings</string>
     <string name="launch_notification_center">Notification shade</string>
     <string name="launch_recents">Launch Recents</string>
+    <string name="launch_smarthome">Xiaomi Quick Connect</string>
     <string name="launch_voice_assistant">Launch voice assistant</string>
     <string name="launch_wechat_health_code">WeChat health code</string>
     <string name="launch_wechat_health_code_auto_close">WeChat health code shortcut is no longer available. You can switch to a different shortcut.</string>
@@ -4389,6 +4414,7 @@ as your First space PIN."</string>
     <string name="lockpassword_confirm_workspace_password">Verify Work space password</string>
     <string name="lockpassword_confirm_your_lock_password_header">Confirm your password</string>
     <string name="lockpassword_confirm_your_lock_pattern_header">Confirm your pattern</string>
+    <string name="lockpassword_confirm_your_lock_pin_header">Confirm your PIN</string>
     <string name="lockpassword_confirm_your_password_details_frp">Your phone was reset to factory settings. To use this phone, enter your previous password.</string>
     <string name="lockpassword_confirm_your_password_generic">Enter your device password to continue.</string>
     <string name="lockpassword_confirm_your_password_generic_profile">Enter your work password to continue</string>
@@ -4748,6 +4774,8 @@ You can't reverse this action."</string>
     <string name="miheadset_double_click_right">Double tap the right earphone</string>
     <string name="miheadset_double_press_left">Double press left earphone</string>
     <string name="miheadset_double_press_right">Double press right earphone</string>
+    <string name="miheadset_dual_connect_mode">Connect to two devices</string>
+    <string name="miheadset_dual_connect_mode_summary">Turn on to connect your earphones to two Bluetooth devices simultaneously</string>
     <string name="miheadset_enhanceVoice">Enhance voice</string>
     <string name="miheadset_enhence_high">Enhanced treble</string>
     <string name="miheadset_enhence_low">Enhanced bass</string>
@@ -4830,6 +4858,7 @@ You can't reverse this action."</string>
     <string name="miui_face_enroll_risk_warning_title_text">Attention</string>
     <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
+    <string name="miui_input_method_attention">Attention</string>
     <string name="miui_input_method_settings">Input method settings</string>
     <string name="miui_lab_ai_cloud_closed">"AI preloading isn't available yet."</string>
     <string name="miui_lab_ai_preload_desc">AI preloading increases app launch speed</string>
@@ -5546,8 +5575,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
     <string name="notifications_title">Notifications</string>
     <string name="now">Reboot now</string>
     <string name="number_of_device_admins_none">No active apps</string>
-    <string name="oaid_apps_summary">设置是否允许应用获取虚拟身份ID</string>
-    <string name="oaid_apps_title">虚拟身份ID授权管理</string>
+    <string name="oaid_apps_summary">Allow or restrict access for individual apps</string>
+    <string name="oaid_apps_title">Manage virtual ID</string>
     <string name="oaid_string">"Current virtual ID:
 %1s"</string>
     <string name="oem_lock_info_message">Please restart the device to enable device protection feature.</string>
@@ -5634,6 +5663,35 @@ OTG turns off automatically after 10 minutes of inactivity."</string>
     <string name="owner_info_settings_title">Lock screen signature</string>
     <string name="owner_space">First space</string>
     <string name="packages_subtitle">Included packages</string>
+    <string name="pad_backup_summary">Back up and restore items on this device</string>
+    <string name="pad_backup_title">Mobile device</string>
+    <string name="pad_computer_backup_summary">Back up and restore items using a computer</string>
+    <string name="pad_how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
+
+Mobile device
+Save your system settings, accounts, app data, and other items in a separate file stored on your device (MIUI-backup-AllBackup). Note: Performing a factory reset will delete such backups permanently. Remember to copy backups to your computer.
+
+Computer
+Create a backup on this device, then go to MIUI-backup-AllBackup and copy the backup to your computer via USB cable.
+
+USB drive
+Save your system settings, accounts, app data, and other items to a USB drive.
+
+Xiaomi Cloud
+Sync your contacts, photos, videos, the list of your apps, system settings, and Home screen layout with the cloud."</string>
+    <string name="pad_how_restore_backup_content">"Here's how you can restore items that were backed up using different methods:
+
+Mobile device
+Tap \"Mobile device\" find the option to restore items and select the backup to continue.
+
+Computer
+Copy the backup from your computer to MIUI-backup-AllBackup via USB cable and restore items from your mobile device.
+
+USB drive
+Copy the backup from your USB drive to MIUI-backup-AllBackup and select the option to restore items from a USB drive to continue.
+
+Xiaomi Cloud
+Open Xiaomi Cloud and restore items from there."</string>
     <string name="page_layout_1">Sunday, August 16</string>
     <string name="page_layout_10">Settings</string>
     <string name="page_layout_11">Weather</string>
@@ -5726,6 +5784,7 @@ Read and agree to %s before using this service."</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="password_turned_off_text">Password has been turned off</string>
     <string name="password_turned_on_text">Password has been turned on</string>
+    <string name="password_unlock">Screen lock</string>
     <string name="password_unlock_title">Screen lock</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -6261,7 +6320,7 @@ Read and agree to %s before using this service."</string>
     <string name="remove_managed_profile_label">Remove work profile</string>
     <string name="repeat">Repeat</string>
     <string name="repeat_call">Notify about repeated calls</string>
-    <string name="repeat_call_info">Ring or vibrate while receiving the second call from the same phone number within %d minutes</string>
+    <string name="repeat_call_info">Ring or vibrate while receiving the second call from the same contact or phone number within %d minutes when DND is on</string>
     <string name="repeat_days_in_week">Repeat</string>
     <string name="repeat_never">Never</string>
     <string name="repeat_title">Repeat</string>
@@ -6377,6 +6436,7 @@ Restart your device and try again."</string>
     <string name="ringtones_category_preference_title">Ringtones</string>
     <string name="ringtones_install_custom_sound_content">This file will be copied to the %s folder</string>
     <string name="ringtones_install_custom_sound_title">Add custom sound?</string>
+    <string name="risk_tip">Risk detected</string>
     <string name="roaming">Roaming</string>
     <string name="roaming_alert_title">Allow data roaming?</string>
     <string name="roaming_check_price_warning">Check with your network provider for pricing.</string>
@@ -6597,8 +6657,9 @@ To use app pinning: \u0009
     <string name="screen_saturation">Saturation</string>
     <string name="screen_shot">Take a screenshot</string>
     <string name="screen_timeout">Sleep</string>
+    <string name="screen_timeout_subtitle">Displaying static content for extended periods of time may make colors uneven</string>
     <string name="screen_timeout_summary">After %1$s of inactivity</string>
-    <string name="screen_timeout_title">Sleep mode</string>
+    <string name="screen_timeout_title">Lock screen automatically</string>
     <string name="screen_usage_summary">Amount of time screen has been on since full charge</string>
     <string name="screen_zoom_big">L</string>
     <string name="screen_zoom_conversation_icon_alex">A</string>
@@ -6880,6 +6941,7 @@ To use app pinning: \u0009
     <string name="secspace_fod_use_password">Enter password</string>
     <string name="secure_keyguard_business_title">Set screen lock</string>
     <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
+    <string name="security_center_title">Security</string>
     <string name="security_dashboard_summary">Screen lock, fingerprint</string>
     <string name="security_dashboard_summary_face">Screen lock, face unlock</string>
     <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
@@ -7810,6 +7872,7 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="switch_headset_anti_lost_title">Missing earphone alert</string>
     <string name="switch_off_text">Off</string>
     <string name="switch_on_text">On</string>
+    <string name="switch_power_sound">Charging sound</string>
     <string name="switch_screen_button_order">Mirror buttons</string>
     <string name="switch_screen_button_order_desc">Mirror Back and Menu buttons</string>
     <string name="switch_select_to_speak_on">Select to Speak</string>
@@ -7980,6 +8043,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="thursday">Thursday</string>
     <string name="thursday_short">Thu</string>
     <string name="thursday_shortest">Thu</string>
+    <string name="time_floating_window">Floating clock</string>
+    <string name="time_floating_window_summary">Show the clock in the floating window above other apps</string>
     <string name="time_format_category_title">Time format</string>
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>

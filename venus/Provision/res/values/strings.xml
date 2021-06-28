@@ -161,6 +161,7 @@
     <string name="disagreement_exit_app">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to sign out or restrict permissions in the Settings in such cases."</string>
     <string name="disagreement_function">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this feature. You can choose not to use this feature in such cases."</string>
     <string name="disagreement_location_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service."</string>
+    <string name="disagreement_terminate_miuidaemon">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this service. You can choose not to use this service or restrict permissions in the Settings in such cases. Note that we will use the permissions only when you start transferring data from your device when its screen is damaged."</string>
     <string name="disagreement_terminate_service">"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall, sign out, or restrict permissions in the Settings in such cases."</string>
     <string name="download_introduction">\"Downloads\" is using Xunlei to download items on your device. This tool works for GetApps, system updates, themes, videos, and browser downloads.</string>
     <string name="early_morning">Morning</string>
@@ -475,6 +476,7 @@ You can control this feature from Settings > Passwords &amp; security > Privacy 
     <string name="provision_skip_underline">Skip</string>
     <string name="recorder_introduction">You can use this app to record audio and back up recordings to the cloud.</string>
     <string name="require_authority_statement">To allow us to provide you with basic services, you need to grant the following permissions in order for us to collect your personal information:</string>
+    <string name="require_miuidaemon_authority_statement">To allow us to provide you with this service, you need to grant the following permissions in order for us to collect your personal information:</string>
     <string name="require_network_authority_statement">To allow us to provide you with basic services, you need to connect to the internet and grant the following permissions in order for us to collect your personal information:</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
@@ -573,7 +575,8 @@ You must agree to our User Agreement and Privacy Policy before you can use MIUI.
     <string name="terms_of_use_label_phrase">, Frequent phrases</string>
     <string name="terms_of_use_label_systemhelper">, Self-registered service</string>
     <string name="terms_of_use_label_updater">, Updater</string>
-    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_lable_apps_wifi_device">Mi services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, Translation Service, MIUI SDK, Quick apps, App vault, statistics, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 You must agree to Facemoji Privacy Policy before using this feature."</string>
@@ -634,7 +637,7 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="title_fingerprint">Set password</string>
+    <string name="title_fingerprint">Set screen lock</string>
     <string name="title_set_fingerprint">Screen lock</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
@@ -643,6 +646,7 @@ You must agree to Mint Keyboard Privacy Policy before using this feature."</stri
     <string name="tuesday_shortest">Tue</string>
     <string name="user_agreement">User Agreement</string>
     <string name="user_agreement_declare">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Mi SIM Activation Service, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, and smart services will connect to the network and access your location.</string>
+    <string name="user_agreement_declare_wifi_device">Before using MIUI, you must read and agree to our User Agreement and Privacy Policy. While your device is being activated, Xiaomi Cloud, Backup Service, Find device, Home screen, Frequent phrases, Xiaomi Internet Communication Service, Translation Service, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistant, Battery and performance, Power Detector, Joyose, OS AI Setting, and Updater will connect to the network. Smart cards, Permissions Manager, and smart services will connect to the network and access your location.</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="voice_assist_advice">Mi AI allows you to use voice controls, but it consumes more power (+1% every hour).</string>
